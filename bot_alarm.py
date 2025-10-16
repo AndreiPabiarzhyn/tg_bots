@@ -14,6 +14,7 @@ def alarm_keyboard():
     )
     return keyboard
 
+
 # При /start
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
